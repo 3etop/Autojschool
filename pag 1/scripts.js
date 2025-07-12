@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             const card = this.closest('.flip-card');
             const paquete = card.querySelector('.flip-card-front h4').textContent;
-            const mensaje = `Hola! me interesaría adquirir  ${paquete}.`;
+            const mensaje = `Hallo! Ik zou geïnteresseerd zijn in de aankoop  ${paquete}.`;
             const numero = '+3165119657'; // Mismo número que el botón WhatsApp
             window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`, '_blank');
         });
