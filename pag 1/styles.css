@@ -302,15 +302,6 @@ footer .hidden {
     border: 1px solid #e0e0e0;
     font-size: 0.85em;
 }
-.precios-lista .precio::before {
-    content: "";
-    position: absolute;
-    top: -40px; right: -40px;
-    width: 80px; height: 80px;
-    background: rgba(12,186,230,0.08);
-    border-radius: 50%;
-    z-index: 0;
-}
 .precios-lista .precio:hover {
     box-shadow: 0 12px 36px rgba(8,79,107,0.22);
     border-color: #0cbae6;
