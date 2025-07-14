@@ -6,7 +6,7 @@ body {
     color: #222;
 }
 header {
-    background: linear-gradient(90deg, rgba(3, 28, 32, 0.986) 60%, #084f6b 100%);
+    background: linear-gradient(90deg, rgba(213, 230, 233, 0.986) 60%, #084f6b 100%);
     color: #fff;
     padding: 20px 0;
     box-shadow: 0 4px 16px rgba(255, 255, 255, 0.623);
@@ -30,14 +30,14 @@ nav ul {
     padding: 0;
 }
 nav a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     transition: color 0.2s;
 }
 
 nav a:hover {
-    color: #0b9ea3;
+    color: #ffffff;
     scale: 1.05;
 }
 
