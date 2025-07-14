@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const card = this.closest('.flip-card');
             const paquete = card.querySelector('.flip-card-front h4').textContent;
             const mensaje = `Hallo! Ik zou geïnteresseerd zijn in de aankoop  ${paquete}.`;
-            const numero = '3165119657'; // Mismo número que el botón WhatsApp
+            const numero = '31651196657'; // Mismo número que el botón WhatsApp
             window.open(`https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`, '_blank');
         });
     });
