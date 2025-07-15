@@ -25,15 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // FLIP CARD: Girar al hacer clic en la tarjeta
-    document.querySelectorAll('.flip-card').forEach(card => {
-        card.addEventListener('click', function(e) {
-            // Evita que el click en el botón Solicitar abra el modal directamente
-            if(e.target.classList.contains('solicitar-btn')) return;
-            this.classList.toggle('girada');
-        });
-    });
-
     // Redirigir a WhatsApp con mensaje personalizado al hacer clic en Solicitar
     document.querySelectorAll('.solicitar-btn').forEach(btn => {
         btn.addEventListener('click', function(e) {
