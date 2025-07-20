@@ -1,0 +1,47 @@
+/*
+ * Riveros Autorijschool - Website Configuration
+ * Optimized for Netherlands hosting deployment
+ */
+
+/* Critical CSS - Above the fold content */
+:root {
+    --primary-color: #147c8b;
+    --secondary-color: #06b4e9;
+    --accent-color: #55b7dd;
+    --dark-color: #084f6b;
+    --light-color: #fff;
+}
+
+/* Performance optimizations */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Preload critical resources */
+body {
+    font-display: swap;
+}
+
+/* Optimize images for web */
+img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+/* Lazy loading support */
+.lazy {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.lazy.loaded {
+    opacity: 1;
+}
+
+/* Print styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}

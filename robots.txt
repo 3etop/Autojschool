@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://riverosautorijschool.nl/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Allow search engines to index important pages
+Allow: /index.html
+Allow: /assets/css/styles.css
+Allow: /assets/js/scripts.js
+Allow: /assets/images/
+
+# Block unnecessary files
+Disallow: /assets/images/*.mp4
+Disallow: *.log
+Disallow: *.tmp
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /DEPLOYMENT.md
+Disallow: /package.json
+
+# Host specification
+Host: riverosautorijschool.nl

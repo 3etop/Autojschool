@@ -1,0 +1,44 @@
+{
+  "name": "riveros-autorijschool",
+  "version": "1.0.0",
+  "description": "Professionele autorijschool website voor Riveros Autorijschool in Zutphen en omgeving",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "build": "echo 'Website is ready for production deployment'",
+    "deploy": "echo 'Upload files to Netherlands hosting provider'",
+    "validate": "npx html5-validator --root . --format text"
+  },
+  "keywords": [
+    "autorijschool",
+    "rijlessen",
+    "rijbewijs",
+    "zutphen",
+    "nederland",
+    "driving-school",
+    "netherlands"
+  ],
+  "author": {
+    "name": "Riveros Autorijschool",
+    "email": "riveroschelo@gmail.com",
+    "url": "https://riverosautorijschool.nl"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3etop/Autojschool.git"
+  },
+  "homepage": "https://riverosautorijschool.nl",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "html5-validator": "^4.1.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
